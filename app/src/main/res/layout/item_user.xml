@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:padding="5dp"
+              android:orientation="vertical">
+
+    <!--android:descendantFocusability="blocksDescendants"-->
+    <ImageView
+            android:id="@+id/imgGridItem"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:padding="1dp"
+            android:src="@drawable/ic_person_light"
+            android:scaleType="fitXY"
+            android:layout_gravity="center_horizontal"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtName"/>
+</LinearLayout>
